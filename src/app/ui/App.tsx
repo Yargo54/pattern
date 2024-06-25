@@ -1,9 +1,5 @@
 import '../css/App.css';
-import { useAppDispatch } from '../../store/hooks/redux';
-import { reusedModalWithFormSlice } from '../../store/reducers/reusedModalWithFormSlice';
-import { reusedFormSlice } from '../../store/reducers/reusedFormSlice';
-import { useEffect, useState } from 'react';
-import { IConfigElem } from '../../shared/lib/createNodeElements/model/IConfigElem';
+import { useState } from 'react';
 import Posts from '../../pages/posts';
 import { Button, Layout, Menu } from 'antd';
 import {
@@ -17,59 +13,9 @@ import {
 const { Header, Sider, Content } = Layout;
 
 function App() {
-  const { setOpenStatus } = reusedModalWithFormSlice.actions;
-  const { setFormItems } = reusedFormSlice.actions;
-
-  const dispatch = useAppDispatch();
-
   const [collapsed, setCollapsed] = useState(false);
 
-  const test: IConfigElem[] = [
-    {
-      type: 'inputTextArea',
-      formItemProps: {
-        name: 'test',
-        label: 'test field',
-        value: 'Hi',
-      },
-    },
-    {
-      type: 'inputTextArea',
-      formItemProps: {
-        name: 'test1',
-        label: 'test field',
-        value: 'Hi',
-      },
-    },
-    {
-      type: 'inputTextArea',
-      formItemProps: {
-        name: 'test2',
-        label: 'test field',
-        value: 'Hi',
-      },
-    },
-    {
-      type: 'inputTextArea',
-      formItemProps: {
-        name: 'test3',
-        label: 'test field',
-        value: 'Hi',
-      },
-    },
-  ];
-
-  useEffect(() => {
-    dispatch(setFormItems(test));
-  }, []);
-
   return (
-    // <div style={{ width: 700 }}>
-    //   {/* <Button onClick={() => dispatch(setOpenStatus(true))}>Click Me</Button>
-    //   <ReusedModalWithForm /> */}
-    //   <Posts />
-    // </div>
-
     <Layout style={{ height: '100%' }}>
       <Sider trigger={null} collapsible collapsed={collapsed} style={{ backgroundColor: '#FFF' }}>
         <Menu
