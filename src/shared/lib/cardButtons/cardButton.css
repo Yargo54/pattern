@@ -1,0 +1,114 @@
+.greenButton {
+  color: #31aa2d;
+  border-color: #31aa2d;
+}
+
+.greenButton:hover {
+  color: #31aa2d;
+  border-color: #31aa2d;
+}
+
+.greenButton:active {
+  color: #31aa2d;
+  border-color: #31aa2d;
+}
+
+.greenButton:focus {
+  color: #31aa2d;
+  border-color: #31aa2d;
+  outline: none;
+}
+
+.greenButton:where(.css-dev-only-do-not-override-m4timi).ant-btn-default:not(:disabled):not(
+    .ant-btn-disabled
+  ):hover {
+  color: #31aa2d !important;
+  border-color: #31aa2d !important;
+  background: #ffffff;
+}
+
+.brownButton {
+  color: #422c26;
+}
+
+.brownButton:hover {
+  color: #422c26;
+  border-color: #422c26;
+}
+
+.brownButton:active {
+  color: #422c26;
+  border-color: #422c26;
+}
+
+.brownButton:focus {
+  color: #422c26;
+  border-color: #422c26;
+  outline: none;
+}
+
+.brownButton:where(.css-dev-only-do-not-override-m4timi).ant-btn-default:not(:disabled):not(
+    .ant-btn-disabled
+  ):hover {
+  color: #422c26 !important;
+  border-color: #422c26 !important;
+  background: #ffffff;
+}
+
+.redButton {
+  color: #a12e12;
+  border-color: #a12e12;
+}
+
+.redButton:hover {
+  color: #a12e12;
+  border-color: #a12e12;
+}
+
+.redButton:active {
+  color: #a12e12;
+  border-color: #a12e12;
+}
+
+.redButton:focus {
+  color: #a12e12;
+  border-color: #a12e12;
+  outline: none;
+}
+
+.redButton:where(.css-dev-only-do-not-override-m4timi).ant-btn-default:not(:disabled):not(
+    .ant-btn-disabled
+  ):hover {
+  color: #a12e12 !important;
+  border-color: #a12e12 !important;
+  background: #ffffff;
+}
+
+.uploadButton {
+  color: #309157;
+  border-color: #309157;
+}
+
+.uploadButton:hover {
+  color: #309157;
+  border-color: #309157;
+}
+
+.uploadButton:active {
+  color: #309157;
+  border-color: #309157;
+}
+
+.uploadButton:focus {
+  color: #309157;
+  border-color: #309157;
+  outline: none;
+}
+
+.uploadButton:where(.css-dev-only-do-not-override-m4timi).ant-btn-default:not(:disabled):not(
+    .ant-btn-disabled
+  ):hover {
+  color: #309157 !important;
+  border-color: #309157 !important;
+  background: #ffffff;
+}

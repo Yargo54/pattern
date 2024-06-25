@@ -1,0 +1,27 @@
+.viewButtonStyle {
+  padding: 0;
+  color: #1890ff !important;
+  border-color: #1890ff !important;
+  outline: none !important;
+}
+
+.editButtonStyle {
+  padding: 0;
+  color: #daa520 !important;
+  border-color: #daa520 !important;
+  outline: none !important;
+}
+
+.deleteButtonStyle {
+  padding: 0;
+  color: #ed7878 !important;
+  border-color: #ed7878 !important;
+  outline: none !important;
+}
+
+.downloadButtonStyle {
+  padding: 0;
+  color: #a12e12 !important;
+  border-color: #a12e12 !important;
+  outline: none !important;
+}

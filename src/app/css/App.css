@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url(./images/Roboto.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, Roboto !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f1f1f1 !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+#root {
+  height: 100vh !important;
+  width: 100%;
+}
+
+.ant-card {
+  height: 100%;
+  width: 100%;
+}
